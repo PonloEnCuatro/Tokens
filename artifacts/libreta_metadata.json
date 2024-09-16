@@ -9,6 +9,19 @@
 				"inputs": [
 					{
 						"internalType": "string",
+						"name": "_correo",
+						"type": "string"
+					}
+				],
+				"name": "guardar_correo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
 						"name": "_nombre",
 						"type": "string"
 					}
@@ -19,6 +32,32 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_telefono",
+						"type": "uint256"
+					}
+				],
+				"name": "guardar_telefono",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "leer_correo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "leer_nombre",
 				"outputs": [
@@ -26,6 +65,19 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "leer_telefono",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +112,11 @@
 	},
 	"sources": {
 		"libreta.sol": {
-			"keccak256": "0xb939bd70ddf9603e1911cb31f9f8afd69b25cad796c98aa2e95e88aea29fdb48",
+			"keccak256": "0x2882a7b636f8d973291ba2b1218e4eb7458c260c26be58cfaf18f188b376df32",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f2976e37eef10956b4138723adb7a690102477494652ca8921a1093a20854658",
-				"dweb:/ipfs/QmVu61sXqeKvTc6wsMSseJzBbFrDMCUNZhavveFfEYZahA"
+				"bzz-raw://e53857e64d296112427d811e3ba56f5ce59a8ae28cf1a33cd3fdb81450f4a1d5",
+				"dweb:/ipfs/QmYWFiJeCnthUv29CUXV7ajgYEStsEU2YRsqoLB2YQbT5j"
 			]
 		}
 	},
